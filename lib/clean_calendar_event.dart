@@ -13,8 +13,8 @@ class CleanCalendarEvent {
   CleanCalendarEvent(this.summary,
       {this.description = '',
       this.location = '',
-      required this.startTime,
-      required this.endTime,
+       this.startTime,
+       this.endTime,
       this.color = Colors.blue,
       this.isAllDay = false,
       this.isDone = false});
