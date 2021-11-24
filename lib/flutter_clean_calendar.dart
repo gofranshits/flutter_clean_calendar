@@ -418,8 +418,7 @@ class _CalendarState extends State<Calendar> {
                                           .textTheme
                                           .subtitle2),
                                   Text(
-                                    event.description,
-                                    overflow: TextOverflow.ellipsis)
+                                    event.description)
                                 ],
                               ),
                             ),
