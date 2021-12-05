@@ -420,7 +420,8 @@ class _CalendarState extends State<Calendar> {
                                           .subtitle2),
                                   Text(
                                     event.description,
-                                  overflow: TextOverflow.ellipsis)
+                                  overflow: TextOverflow.ellipsis,
+                                  maxLines: 2)
                                 ],
                               ),
                             ),
