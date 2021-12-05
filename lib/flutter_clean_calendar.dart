@@ -410,9 +410,8 @@ class _CalendarState extends State<Calendar> {
                             child: Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Column(
-                                mainAxisSize: MainAxisSize.max,
                                 crossAxisAlignment: CrossAxisAlignment.start,
-//                                 mainAxisAlignment: MainAxisAlignment.center,
+                                mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(event.summary,
                                       style: Theme.of(context)
