@@ -403,7 +403,7 @@ class _CalendarState extends State<Calendar> {
                                 color: event.color,
                               ),
                             ),
-                          ),
+                          )),
                           Expanded(
                             flex: 75,
                               child: Column(
