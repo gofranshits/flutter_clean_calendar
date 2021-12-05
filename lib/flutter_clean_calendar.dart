@@ -398,8 +398,7 @@ class _CalendarState extends State<Calendar> {
                         children: <Widget>[
                           Expanded(
                             flex: 5,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
+                            
                               child: Container(
                                 color: event.color,
                               ),
@@ -421,10 +420,10 @@ class _CalendarState extends State<Calendar> {
                                   Text(
                                     event.description,
                                   overflow: TextOverflow.ellipsis,
-                                  maxLines: 2)
+                                  )
                                 ],
                               ),
-                            ),
+                            
                           ),
 //                           Expanded(
 //                             flex: 20,
