@@ -412,14 +412,15 @@ class _CalendarState extends State<Calendar> {
                               child: Column(
                                 mainAxisSize: MainAxisSize.max,
                                 crossAxisAlignment: CrossAxisAlignment.start,
-//                                 mainAxisAlignment: MainAxisAlignment.center,
+                                mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(event.summary,
                                       style: Theme.of(context)
                                           .textTheme
                                           .subtitle2),
                                   Text(
-                                    event.description)
+                                    event.description,
+                                  overflow: TextOverflow.ellipsis)
                                 ],
                               ),
                             ),
