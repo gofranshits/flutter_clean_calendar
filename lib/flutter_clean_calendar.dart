@@ -393,7 +393,7 @@ class _CalendarState extends State<Calendar> {
                           widget.onEventSelected!(event);
                         }
                       },
-                      child: Row(
+                      child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: <Widget>[
                           Expanded(
